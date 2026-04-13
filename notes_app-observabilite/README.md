@@ -26,8 +26,11 @@ Implémentation d'une application Node.js/Express avec observabilité complète 
 # Installer les dépendances
 npm install
 
+# Installer les dépendances
+copier le .env.exemple en .env
+
 # Lancer l'application avec Docker Compose
-docker-compose up --build
+docker compose up --build
 ```
 
 L'API sera accessible sur `http://localhost:3000`.
@@ -585,6 +588,7 @@ curl -i http://localhost:3000/health
 ---
 
 ## Observabilité en production
+(pas de production disponible, réponse par déduction et recherche)
 
 ### Pour les logs
 

@@ -33,7 +33,7 @@ copier le .env.exemple en .env
 docker compose up --build
 ```
 
-L'API sera accessible sur `http://localhost:3000`.
+L'API sera accessible sur `http://localhost:3000`. Dans les logs un warn sera disponible sur ce lien, 404 not found sur l'endpoint.
 
 ### Variables d'environnement
 
